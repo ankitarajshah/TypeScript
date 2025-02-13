@@ -1,7 +1,10 @@
 import React from "react";
-
+import ReUsableCompForm from "./pages/ReUsableCompForm";
 const App = () => {
-  return <div>App</div>;
+  return (
+    <>
+      <ReUsableCompForm />
+    </>
+  );
 };
-
 export default App;
